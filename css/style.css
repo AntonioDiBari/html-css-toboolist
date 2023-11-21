@@ -31,9 +31,10 @@ body{
 .container{
     background-color: white;
     width: 700px;
-    height: 400px;
+    height: 100%;
     margin: 50px auto auto auto;
     border-radius: 5px;
+    padding-bottom: 40px;
 }
 .main-header{
     padding: 15px 0px 10px 40px;
@@ -54,4 +55,28 @@ body{
 .trasparente{
     color: #c4cacf;
     border: 1px solid #c4cacf;
+}
+.main-list{
+    padding: 40px 0 0 40px;
+}
+.list-item{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.check{
+    color:green;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 0px 4px;
+    margin: 5px 5px 5px 5px;
+}
+.cross{
+    color:red;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 0px 4px;
+    margin: 5px 5px 5px 5px;
 }
