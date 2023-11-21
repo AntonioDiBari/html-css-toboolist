@@ -41,6 +41,8 @@ body{
     line-height: 20px;
     border-bottom: 1px solid #c4cacf;
 }
+
+/* PULSANTI */
 .main-button{
     vertical-align: middle;
     border-radius: 5px;
@@ -56,6 +58,8 @@ body{
     color: #c4cacf;
     border: 1px solid #c4cacf;
 }
+
+/* LISTA E PALLINO */
 .main-list{
     padding: 40px 0 0 40px;
 }
@@ -80,7 +84,7 @@ body{
     padding: 0px 4px;
     margin: 5px 5px 5px 5px;
 }
-
+/* TAG COLORATI */
 .tag{
     display: inline-block;
     color: white;
