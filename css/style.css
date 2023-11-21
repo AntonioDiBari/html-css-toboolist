@@ -12,7 +12,7 @@ body{
 }
 
 /* HEADER */
-header{
+.header{
     line-height: 20px ;
     background-color: white;
 }
@@ -25,4 +25,33 @@ header{
     margin: 5px 0 5px 25px;
     height: 65x;
     vertical-align: middle;
+}
+
+/* MAIN */
+.container{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    margin: 50px auto auto auto;
+    border-radius: 5px;
+}
+.main-header{
+    padding: 15px 0px 10px 40px;
+    line-height: 20px;
+    border-bottom: 2px solid #c4cacf;
+}
+.main-button{
+    vertical-align: middle;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+}
+.blu{
+    background-color: #47adf1;
+    color: white;
+}
+.trasparente{
+    color: #c4cacf;
+    border: 1px solid #c4cacf;
 }
